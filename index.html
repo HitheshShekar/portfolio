@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hithesh Shekar || Home</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="nav" id="nav" data-aos="fade-right">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <div class="nav-quote">Connecting the World through Wireless</div>
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- nav-links -->
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="research.html">research</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- nav-links -->
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="#about" onclick="closeSidebar()">about</a>
+          </li>
+          <li>
+            <a href="#projects" onclick="closeSidebar()">projects</a>
+          </li>
+          <li>
+            <a href="#contact" onclick="closeSidebar()">contact</a>
+          </li>
+        </ul>
+        <!-- social icons -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://github.com/aksh1251" class="social-icon">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/hithesh-shekar-ab7b22151/" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="./resume/Hithesh_Shekar_resume.pdf" class="social-icon" download>
+              <i class="fas fa-file-pdf"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+
+    <!-- header -->
+    <header class="hero">
+      <div class="section-center hero-center">
+        <article class="hero-info">
+          <div class="underline"></div>
+          <h1>I'm Hithesh Shekar</h1>
+          <h5 id="dynamic-text"></h5>
+          <p>in Wireless Communication</p>
+          <a href="contact.html" class="btn hero-btn">hire me</a>
+          <!-- social icons -->
+          <ul class="social-icons hero-icons">
+            <li>
+              <a href="https://github.com/HitheshShekar" class="social-icon">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/hithesh-shekar-ab7b22151/" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="./resume/Hithesh_Shekar_resume.pdf" class="social-icon" download>
+                <i class="fas fa-file-pdf"></i>
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article class="hero-img">
+          <div class="hero-background layer-1" style="background-image: url('./images/5G_minimal_glowing_effect.gif');"></div>
+        </article>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- Remaining sections... -->
+    <!-- about -->
+
+    <section id="about" class="section about">
+
+      <div class="section-center about-center">
+
+        <!-- about img -->
+
+        <article class="hero-photo">
+          <div class="hero-background layer-2" style="background-image: url('./images/about.png');"></div>
+        </article>
+
+        <!-- about info -->
+
+        <article class="about-info">
+
+          <!-- section title -->
+
+          <div class="section-title about-title">
+
+            <h2>about</h2>
+
+            <div class="underline"></div>
+
+          </div>
+
+          <!--end of section title -->
+
+          <p>
+
+            I am Hithesh Shekar, a passionate researcher and engineer specializing in wireless communications 
+            and 5G technology. With hands-on experience in cutting-edge projects like integrating OpenAirInterface
+             and NVIDIA ARC for 5G optimization, I strive to innovate and push the boundaries of modern 
+             communication systems. Currently pursuing my Master's in Electrical and Computer Engineering at 
+             Northeastern University, I am driven to create scalable, efficient, and intelligent wireless 
+             solutions. Let's connect to explore new horizons in technology and innovation!
+
+          </p>
+
+          <a href="about.html" class="btn">about me</a>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- end of about -->
+
+
+    <!--experience-->
+
+    <!-- Experience 1-->
+    <section id="Experience" class="section blog">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>Experience</h2>
+        <div class="underline"></div>
+      </div>
+      <!--end of section title -->
+    <div class="section-center blog-center">
+      <!-- Large Card -->
+      <div class="card card-large">
+        <div class="card-side card-front">
+          <img src="./images/northeastern_logo.png" alt="Northeastern University Logo" />
+          <div class="card-info">
+            <h4>Research Assistant</h4>
+            <h5>Northeastern University, Boston USA</h5>
+            <p>January 2024 - Present</p>
+            <p>Optimized 5G network performance by integrating O-RUs with OpenAirInterface and NVIDIA ARC, 
+              achieving throughput of 1.1 Gbps in SA mode. Debugged and analyzed PHY/MAC layer logs to 
+              ensure seamless RRC configuration and compliance with IoT Profile 1 standards.</p>
+          </div>
+        </div>
+        <div class="card-side card-back">
+          <div class="card-info">
+            <p>Led cutting-edge 5G network innovations, 
+              achieving up to 1.1 Gbps throughput and ensuring seamless IoT integration.</p>
+            <h5>Current Resarch:</h5>
+            <p>Digital Twin for Advanced Wireless Research</p>
+            <p>Open, Programmable, and Virtualized 5G Networks</p>
+            <a href="https://ece.northeastern.edu/wineslab/research.php"><button class="btn">visit site</button></a>
+            <p>     </p>
+            <h5>WiNES LAb</h5>
+            <p>     </p>
+            <p>Passionate about creating scalable, efficient, and intelligent communication systems. 
+              Let’s connect to discuss the next big leap in tech!</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Standard Card -->
+      <div class="card">
+        <div class="card-side card-front">
+          <img src="./images/hfcllogo.png" alt="HFCL Logo" />
+          <div class="card-info">
+            <h4>Senior Engineer</h4>
+            <h5>HFCL Limited, Bangalore India</h5>
+            <p>August 2021 - December 2023</p>
+            <p>Engineered end-to-end 5G small cell solutions, deploying Open5GS core and achieving 560
+               Mbps for 100MHz bandwidth. Developed F1AP protocol and backend EMS using Netconf, 
+               integrated ELK for analytics, and documented advancements in NSA mode for small cells.
+            </p>
+          </div>
+        </div>
+        <div class="card-side card-back">
+          <div class="card-info">
+            <h5>Indoor Small cell (2T2R)</h5>
+            <p>Tested and developed RRC and MAC layer according to 3gpp standards (rel 16) </p>
+            <p>Performed end-to-end integration testing</p>
+            <a href="https://www.hfcl.com/telecommunication/5g-product-portfolio-"><button class="btn">visit site</button></a>
+            <p>     </p>
+            <h5>Outdoor Small Cell (4T4R)</h5>
+            <p>     </p>
+            <p>Complete understaing of the specs for layer 2 and layer 3 (RRC in specific), contibuted in compliance to the relesase 16(3gpp)</p>
+          </div>  
+        </div>
+      </div>
+    
+      <!-- Small Card -->
+      <div class="card card-small">
+        <div class="card-side card-front">
+          <img src="./images/lnt_logo.png" alt="Larsen and Toubro Logo" />
+          <div class="card-info">
+            <h4>Hardware Intern</h4>
+            <h5>Larsen and Toubro, Mysore India</h5>
+            <p>June 2019 - September 2019</p>
+            <p>Automated PCB quality assurance processes, reducing manual effort by 75% through 
+              web application integration. Designed PCB layouts for testing electronic components, 
+              enhancing accuracy and reporting efficiency.</p>
+          </div>
+        </div>
+        <div class="card-side card-back">
+          <a href="https://www.larsentoubro.com/"><button class="btn">visit site</button></a>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!--end of Experience 1 -->
+    
+
+
+    <!-- Current Research -->
+
+    <section id="Research and Ongoing Work" class="section"s>
+      <!-- Section Title -->
+      <div class="section-title">
+        <h2>Wireless Research</h2>
+        <div class="underline"></div>
+      </div>
+    
+      <!-- Wave Sections -->
+      <div class="wave-container">
+        <!-- Wave 1 -->
+        <div class="wave" id="wave1">
+          <h3>OTIC (Open Testing and Integration Centres)</h3>
+          <p>
+            Equipped with state-of-the-art testing devices from industry leaders like Keysight and Viavi, 
+            the Open6G OTIC provides capabilities for validating disaggregated base stations, RAN Intelligent 
+            Controllers (RICs), and custom applications (xApps and rApps). This infrastructure supports testing 
+            against diverse RAN implementations, including both commercial and software-defined products, in 
+            emulated or over-the-air environments
+          </p>
+          <div class="signal-line"></div>
+        </div>
+    
+        <!-- Wave 2 -->
+        <div class="wave" id="wave2">
+          <h3>Programmable 5G</h3>
+          <p>
+            Programmable 5G architectures open up new possibilities for network virtualization, slicing, 
+            and scalability. This research emphasizes creating flexible and customizable wireless networks 
+            that can be adapted to various applications, from IoT to smart cities.
+          </p>
+          <div class="signal-line"></div>
+        </div>
+    
+        <!-- Wave 3 -->
+        <div class="wave" id="wave3">
+          <h3>O-RAN + IoT</h3>
+          <p>
+            Integrating IoT with O-RAN is transforming how connected devices communicate. This research 
+            focuses on creating scalable and efficient systems that support massive IoT deployments, 
+            enabling seamless integration across diverse applications.
+          </p>
+          <div class="signal-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!--end of Current Research -->
+
+
+    <!-- skills -->
+
+    <section id="technical-skills" class="skills-section">
+    <!-- Section Title -->
+    <div class="section-title">
+      <h2>Technical Skills</h2>
+      <div class="underline"></div>
+    </div>
+
+    <!-- Skills Categories -->
+    <div class="skills-grid">
+      <!-- Programming Languages -->
+      <div class="skill-category" data-aos="fade-down">
+        <div class="icon-box">
+          <i class="fas fa-code"></i>
+        </div>
+        <h3>Programming Languages</h3>
+        <ul class="skill-tags">
+          <li><i class="fab fa-cuttlefish"></i> C</li>
+          <li><i class="fab fa-cuttlefish"></i> C++</li>
+          <li><i class="fas fa-brain"></i> Matlab</li>
+          <li><i class="fab fa-python"></i> Python</li>
+          <li><i class="fas fa-code"></i> ASN.1</li>
+          <li><i class="fas fa-terminal"></i> Shell</li>
+          <li><i class="fas fa-network-wired"></i> Socket Programming</li>
+          <li><i class="fas fa-microchip"></i> Arduino</li>
+        </ul>
+      </div>
+
+      <!-- Debugging tools -->
+      <div class="skill-category" data-aos="fade-down">
+        <div class="icon-box">
+          <i class="fas fa-tools"></i>
+        </div>
+        <h3>Debugging Tools</h3>
+        <ul class="skill-tags">
+          <li><i class="fas fa-tools"></i> QXDM</li>
+          <li><i class="fas fa-wave-square"></i> Signal Analyzer</li>
+          <li><i class="fas fa-oscilloscope"></i> Oscilloscope</li>
+          <li><i class="fas fa-network-wired"></i> Wireshark</li>
+          <li><i class="fas fa-wave-square"></i> Wavejudge</li>
+          <li><i class="fas fa-brain"></i> Matlab</li>
+          <li><i class="fas fa-broadcast-tower"></i> O-RAN Studio</li>
+        </ul>
+      </div>
+
+      <!-- Software -->
+      <div class="skill-category" data-aos="fade-down">
+        <div class="icon-box">
+          <i class="fas fa-code-branch"></i>
+        </div>
+        <h3>Software</h3>
+        <ul class="skill-tags">
+          <li><i class="fas fa-code"></i> Source Insight</li>
+          <li><i class="fas fa-route"></i> TCPTraceroute</li>
+          <li><i class="fas fa-network-wired"></i> iPerf</li>
+          <li><i class="fas fa-cubes"></i> OpenYUMA</li>
+          <li><i class="fab fa-docker"></i> Docker</li>
+          <li><i class="fab fa-kubernetes"></i> Kubernetes</li>
+          <li><i class="fas fa-tools"></i> CI/CD</li>
+          <li><i class="fab fa-bitbucket"></i> BitBucket</li>
+          <li><i class="fas fa-search"></i> Elastic Search</li>
+          <li><i class="fas fa-database"></i> Logstash</li>
+          <li><i class="fas fa-chart-line"></i> Kibana</li>
+          <li><i class="fas fa-project-diagram"></i> JIRA</li>
+          <li><i class="fas fa-file-alt"></i> Confluence</li>
+        </ul>
+      </div>
+
+      <!-- Communication Protocols -->
+      <div class="skill-category" data-aos="fade-up">
+        <div class="icon-box">
+          <i class="fas fa-network-wired"></i>
+        </div>
+        <h3>Communication Protocols</h3>
+        <ul class="skill-tags">
+          <li><i class="fas fa-broadcast-tower"></i> 5G Stack</li>
+          <li><i class="fas fa-plug"></i> UDP/TCP</li>
+          <li><i class="fas fa-broadcast-tower"></i> CDMA</li>
+          <li><i class="fas fa-broadcast-tower"></i> OFDM</li>
+        </ul>
+      </div>
+
+      <!-- Processors -->
+      <div class="skill-category" data-aos="fade-up">
+        <div class="icon-box">
+          <i class="fas fa-robot"></i>
+        </div>
+        <h3>Processors</h3>
+        <ul class="skill-tags">
+          <li><i class="fas fa-microchip"></i> LA1234 (Baseband)</li>
+          <li><i class="fas fa-microchip"></i> LA1224 (Baseband)</li>
+          <li><i class="fas fa-microchip"></i> LS1046 (Application)</li>
+          <li><i class="fas fa-microchip"></i> LS2160 (Application)</li>
+          <li><i class="fas fa-microchip"></i> Arduino</li>
+          <li><i class="fas fa-raspberry-pi"></i> Raspberry Pi</li>
+        </ul>
+      </div>
+      
+      <!-- Standards -->
+      <div class="skill-category" data-aos="fade-up">
+        <div class="icon-box">
+          <i class="fas fa-globe"></i>
+        </div>
+        <h3>Standards</h3>
+        <ul class="skill-tags">
+          <li><i class="fas fa-signal"></i> 3GPP (RRC, Physical Layer, MAC)</li>
+          <li><i class="fas fa-book"></i> PDCP, RLC, SDAP (Limited)</li>
+          <li><i class="fas fa-cogs"></i> IEEE</li>
+          <li><i class="fas fa-shield-alt"></i> TSDSI</li>
+          <li><i class="fas fa-broadcast-tower"></i> O-RAN</li>
+      </ul>
+      </div>
+
+    </div>
+    </section>
+ 
+    <!-- end of skills -->
+
+
+    <!-- Education -->
+
+    <section id="education" class="education-section">
+      <!-- Section Title -->
+      <div class="section-title">
+        <h2>Education</h2>
+        <div class="underline"></div>
+      </div>
+    
+      <!-- Curved Timeline -->
+      <div class="curved-timeline">
+        <!-- Single Item -->
+        <div class="timeline-item left" data-aos="fade-right">
+          <div class="course-details">
+            <h4>Course Highlights</h4>
+            <p>Stochastic process and applied probablity, Wireless communication systems, 
+              Terahertz communication, Mobile and wireless</p>
+          </div>
+          <div class="education-card">
+            <div class="logo-wrapper">
+              <img src="./images/northeastern_logo.png" alt="Arden University Logo" />
+            </div>
+            <h3>Master's in Electrical And computer engineering</h3>
+            <p>2025 | Northeastern University, Boston</p>
+            <span>Concentration: Communication, control and signal processing</span>
+          </div>
+        </div>
+    
+        <div class="timeline-item right" data-aos="fade-left">
+          <div class="education-card">
+            <div class="logo-wrapper">
+              <img src="./images/dsi-logo.png" alt="DSI Logo" />
+            </div>
+            <h3>Bachelor's in Electronics and communication</h3>
+            <p>2017 | JSS Science and technology, Mysuru</p>
+            <span>Enable efficient, high-speed data transmission across cellular networks.</span>
+          </div>
+          <div class="course-details">
+            <h4>Course Highlights</h4>
+            <p>Digital Communications, Digital signal processing, Computer Networks, Algorithms, Data Structures, Software Engineering, Network Design</p>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    <!--end of  Education -->
+
+
+    <!-- connect -->
+
+    <section id="connect" class="connect">
+
+      <video
+
+        controls
+
+        autoplay
+
+        muted
+
+        loop
+
+        class="video-container"
+
+        poster="./images/project-1.jpeg"
+
+      >
+
+        <source src="./videos/connect.mp4" type="video/mp4" />
+
+        Sorry, your browser does not support embedded videos
+
+      </video>
+
+      <div class="video-banner">
+
+        <!-- section title -->
+
+        <div class="section-title">
+
+          <h2>let's get in touch</h2>
+
+          <div class="underline"></div>
+
+        </div>
+
+        <!--end of section title -->
+
+        <p class="video-text">
+
+          If your organisation is looking to hire someone who can bring out of the box thinking to the team, or if you want to just say something nice, contact me using the form below.
+
+        </p>
+
+        <a href="contact.html" class="btn">contact me</a>
+
+      </div>
+
+    </section>
+    <!-- End of Contact Section -->
+
+    <!-- end of connect -->
+
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+      <p>&copy; <span id="date"></span> Hithesh Shekar. all rights reserved</p>
+    </footer>
+
+    <!--script tags-->
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="./js/app.js"></script>
+    
+  </body>
+</html>
